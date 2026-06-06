@@ -33,9 +33,10 @@ Why this pattern works:
 - 
 - 
 
-## Mistakes I Made
-
-- 
+## Mistakes I Mad
+- I mixed Java syntax with Python syntax.
+- I forgot that Python uses len(nums), not List.length.
+- I needed to return the indices [i, j], not just return.
 
 ## Complexity
 
