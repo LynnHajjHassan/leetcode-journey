@@ -17,10 +17,10 @@ class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         seen = {}  # dictionary: number -> index
 
-        for i in range(len(nums)):
+        for i in range(len(nums)):      # run n times
             needed = target - nums[i]
 
-            if needed in seen:
+            if needed in seen:      # O(1) lookup in dictionary
                 return [seen[needed], i]
 
             seen[nums[i]] = i

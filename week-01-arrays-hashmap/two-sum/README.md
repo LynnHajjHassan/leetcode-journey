@@ -50,3 +50,25 @@ If not, store the current number with its index.
 Better solution:
 Time: O(n)
 Space: O(n)
+
+## Dictionary Note
+
+A Python dictionary stores key-value pairs.
+
+For Two Sum, I used:
+
+number -> index
+
+Example:
+seen = {
+    2: 0,
+    7: 1
+}
+
+This means number 2 is at index 0, and number 7 is at index 1.
+
+A dictionary is not the same as an array/list.
+A list uses indexes to access values.
+A dictionary uses keys to access values.
+
+Python dictionary is similar to Java HashMap.
