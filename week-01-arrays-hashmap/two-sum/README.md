@@ -24,9 +24,15 @@ Space: O(1)
 
 ## Better Idea / Pattern
 
-Pattern:
+Pattern: HashMap / Dictionary
 
-Why this pattern works:
+For each number, calculate the number needed to reach the target.
+
+needed = target - current number
+
+If the needed number is already in the dictionary, return the index of needed and the current index.
+
+If not, store the current number with its index.
 
 ## Edge Cases
 
@@ -37,9 +43,10 @@ Why this pattern works:
 - I mixed Java syntax with Python syntax.
 - I forgot that Python uses len(nums), not List.length.
 - I needed to return the indices [i, j], not just return.
+- I called the dictionary an array, but in Python {} creates a dictionary.
+- The dictionary stores number -> index, so I can quickly find the needed number.
 
 ## Complexity
-
-Time:
-
-Space:
+Better solution:
+Time: O(n)
+Space: O(n)
