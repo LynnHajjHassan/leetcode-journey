@@ -6,7 +6,7 @@ Rebuild confidence with arrays, loops, indexes, HashMap, and HashSet.
 
 ## Problems
 
-- [ ] Two Sum
+- [x] Two Sum
 - [ ] Contains Duplicate
 - [ ] Valid Anagram
 - [ ] Group Anagrams
